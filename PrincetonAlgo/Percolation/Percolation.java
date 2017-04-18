@@ -3,7 +3,7 @@ import java.lang.IndexOutOfBoundsException;
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 public class Percolation {
-    private int grid[];
+    private int[] grid;
     private int N;
     private WeightedQuickUnionUF uf;
     private int count;
@@ -16,7 +16,7 @@ public class Percolation {
         grid = new int[n* n + 2];
         grid[0] = 1;
         grid[N * N + 1] = 0;
-        for (int i = 1; i < n * n + 1; i ++) {
+        for (int i = 1; i < n * n + 1; i++) {
             grid[i] = -1;
         }
     }
@@ -29,7 +29,7 @@ public class Percolation {
 
     public void open(int row, int col) {    // open site (row, col) if it is not open already
         rangecheck(row, col);
-        if(isOpen(row, col)) return;
+        if (isOpen(row, col)) return;
         count += 1;
         int index = index(row, col);
         grid[index] = 0;
@@ -41,13 +41,13 @@ public class Percolation {
         }
         if (row != N && isOpen(row + 1, col)) {
             uf.union(index(row + 1, col), index);
-        } else if (row == N){
+        } else if (row == N) {
             uf.union(index, N * N + 1);
         }
         if (col != 1 && isOpen(row, col - 1)) {
             uf.union(index(row, col - 1), index);
         }
-        if (col != N && isOpen(row, col + 1)){
+        if (col != N && isOpen(row, col + 1)) {
             uf.union(index(row, col + 1), index);
         }
     }

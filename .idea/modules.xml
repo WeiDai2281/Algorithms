@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Algorithms.iml" filepath="$PROJECT_DIR$/.idea/Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrincetonAlgo/Deques and Randomized Queues/Deques and Randomized Queues.iml" filepath="$PROJECT_DIR$/PrincetonAlgo/Deques and Randomized Queues/Deques and Randomized Queues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrincetonAlgo/Percolation/Percolation.iml" filepath="$PROJECT_DIR$/PrincetonAlgo/Percolation/Percolation.iml" />
+    </modules>
+  </component>
+</project>

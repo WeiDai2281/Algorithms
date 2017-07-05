@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PrincetonAlgo/Deques and Randomized Queues/Deques and Randomized Queues.iml" filepath="$PROJECT_DIR$/PrincetonAlgo/Deques and Randomized Queues/Deques and Randomized Queues.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PrincetonAlgo/Pattern Recognition/Pattern Recognition.iml" filepath="$PROJECT_DIR$/PrincetonAlgo/Pattern Recognition/Pattern Recognition.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PrincetonAlgo/Percolation/Percolation.iml" filepath="$PROJECT_DIR$/PrincetonAlgo/Percolation/Percolation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrincetonAlgo/PrincetonAlgo.iml" filepath="$PROJECT_DIR$/PrincetonAlgo/PrincetonAlgo.iml" />
     </modules>
   </component>
 </project>
